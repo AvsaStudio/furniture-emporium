@@ -1,4 +1,3 @@
-/* Type selector */
 body {
   font-family: "Times New Roman", Times, serif;
   background-color: #f3f3f3;
@@ -7,14 +6,13 @@ body {
   padding: 30px;
 }
 
-/* Layout spacing */
 main {
   max-width: 600px;
   margin: 0;
 }
 
 .par {
-  background-color: #ffffff; /* different from page */
+  background-color: #ffffff;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -24,11 +22,12 @@ button {
   width: 100%;
   padding: 12px;
   margin-top: 15px;
-  background-color: #5d8f4f; /* different from page */
+  background-color: #5d8f4f;
   color: #ffffff;
   border: none;
   border-radius: 8px;
   font-size: 15px;
+  cursor: pointer;
 }
 
 button:hover {
